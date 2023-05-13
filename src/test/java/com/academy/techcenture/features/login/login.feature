@@ -14,3 +14,4 @@ Feature: SauceLabs Login Feature
     And user enters a invalid password "invalid_sauce"
     And user enters on the login button
     Then user should see error message
+

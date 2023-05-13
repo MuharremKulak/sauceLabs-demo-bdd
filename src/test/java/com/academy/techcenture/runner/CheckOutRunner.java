@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/java/com/academy/techcenture/features/login",
+        features = "src/test/java/com/academy/techcenture/features/checkout",
         glue = "com/academy/techcenture/step_defs"
 )
-public class Runner {
+public class CheckOutRunner {
 }
